@@ -30,6 +30,7 @@ public class SitaTest {
 				System.out.println("Scrolled down to Caribbean");
 				Thread.sleep(2000);
 				
+				
 				WebElement carExploreMore = driver.findElement(By.xpath("//a[@href='about.html']"));
 				carExploreMore.click();
 				System.out.println("Clicked on Explore more Next to Caribbean");
